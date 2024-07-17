@@ -1,5 +1,29 @@
+import { useState } from "react"
+// import { Navigate} from 'react-router-dom'
+
 
 const ContactPage = () => {
+  const [firstName, setFirstName] = useState('')
+  const [lastName, setLastName] = useState('')
+  const [email, setEmail] = useState('')
+  const [phone, setPhone] = useState('')
+  const [content, setContent] = useState('')
+
+  const submitForm = (e) =>{
+    e.preventDefault()
+
+      const newForm = {
+        firstName,
+        lastName,
+        email,
+        phone,
+        content
+
+      }
+      console.log(newForm)
+      
+  }
+
   return (
     <section className="bg-slate-800 w-full h-5/6 overflow-hidden">
         <div className=" m-10 mb-1 p-4 text-slate-300 w-auto ">
@@ -30,7 +54,7 @@ const ContactPage = () => {
                 </p>
             </div>
             <div className="flex flex-col p-1 w-11/12 h-[450px] m-3 items-center text-slate-300 bg-green-600">
-              <form action="" className="flex flex-col items-center  w-11/12 h-[380px] p-1">
+              <form onSubmit={submitForm} className="flex flex-col items-center  w-11/12 h-[380px] p-1">
                 <div className="h-1/4  w-5/6 m-1 md:flex items-center justify-center">
                     <div className="  h-9 w-5/6 md:w-[270px] m-2 md:h-3/4 mx-auto">
                         <label htmlFor="" className="capitalize absolute -left-[100000px]"> first name</label>
@@ -38,6 +62,8 @@ const ContactPage = () => {
                         type="text"  
                         placeholder="first name"
                         className="capitalize  w-full h-full rounded-md p-3 text-slate-600 outline-0"
+                        value={firstName}
+                        onChange={(e) => setFirstName(e.target.value)}
                         />
 
                     </div>
@@ -47,6 +73,8 @@ const ContactPage = () => {
                         type="text"  
                         placeholder="last name"
                         className="capitalize  w-full h-full rounded-md p-3 text-slate-600 outline-0"
+                        value={lastName}
+                        onChange={(e) => setLastName(e.target.value)}
                         />
 
                     
@@ -59,6 +87,9 @@ const ContactPage = () => {
                         type="email"  
                         placeholder="email"
                         className="capitalize  w-full h-full rounded-md p-3 text-slate-600 outline-0"
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
+                       
                         />
 
                     </div>
@@ -68,6 +99,9 @@ const ContactPage = () => {
                         type="text"  
                         placeholder="phone number"
                         className="capitalize  w-full h-full rounded-md p-3 text-slate-600 outline-0"
+                        value={phone}
+                        onChange={(e) => setPhone(e.target.value)}
+                       
                         />
                     </div>
                 </div>
@@ -76,7 +110,9 @@ const ContactPage = () => {
                     <div className=" h-3/4 w-5/6 md:w-3/3   m-2 md:h-3/4 mx-auto">
                     <textarea name="text area"
                     placeholder="Enter you message here" 
-                    id="textarea" className="  p-1 text-slate-600 outline-0 max-w-full w-full max-h-full h-full rounded-md min-h-full min-w-full"></textarea>
+                    id="textarea" className="  p-1 text-slate-600 outline-0 max-w-full w-full max-h-full h-full rounded-md min-h-full min-w-full" value={content}
+                    onChange={(e) => setContent(e.target.value)}
+                    ></textarea>
                     
                     </div>
                     
