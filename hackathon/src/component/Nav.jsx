@@ -11,7 +11,9 @@ const Nav = () => {
                     <ul className=" flex items-center mx-1  w-ful  h-5/6  my-1 justify-around list-none">
                      
                             <NavLink to="/" 
-                                    className="capitalize m-1 p-2 text-base font-bold hover:text-slate-700 hover:transition-colors"
+
+                          
+                                    className={({ isActive}) => isActive ? 'text-green-500 capitalize m-1 p-2 text-base font-bold hover:text-green-500 hover:transition-colors' : 'capitalize m-1 p-2 text-base font-bold hover:text-slate-700 hover:transition-colors'}
                             >
                                 home
                             </NavLink >
@@ -19,30 +21,31 @@ const Nav = () => {
                        <li>
                             <NavLink 
                                     to="/About" 
-                                    className="capitalize m-1 p-2 text-base font-bold hover:text-slate-700 hover:transition-colors"
+                                    className={({ isActive}) => isActive ? 'text-green-500 capitalize m-1 p-2 text-base font-bold hover:text-green-500 hover:transition-colors' : 'capitalize m-1 p-2 text-base font-bold hover:text-slate-700 hover:transition-colors'}
+                           
                             >
                                 about
                             </NavLink >
                         </li>
                         <li>
                             <NavLink to="/service" 
-                                    className="capitalize m-1 p-2 text-base font-bold hover:text-slate-700 hover:transition-colors"
-                            >
+                                   className={({ isActive}) => isActive ? 'text-green-500 capitalize m-1 p-2 text-base font-bold hover:text-green-500 hover:transition-colors' : 'capitalize m-1 p-2 text-base font-bold hover:text-slate-700 hover:transition-colors'}
+                                   >
                                 services
                             </ NavLink>
                         </li>
                        
                         <li>
                             <NavLink to="/portfolio" 
-                                    className="capitalize m-1 p-2 text-base font-bold hover:text-slate-700 hover:transition-colors"
-                            >
+                                   className={({ isActive}) => isActive ? 'text-green-500 capitalize m-1 p-2 text-base font-bold hover:text-green-500 hover:transition-colors' : 'capitalize m-1 p-2 text-base font-bold hover:text-slate-700 hover:transition-colors'}
+                                   >
                                 portfolio
                             </ NavLink>
                         </li>
                         <li>
                             <NavLink to="/contact" 
-                                    className="capitalize m-1 p-2 text-base font-bold hover:text-slate-700 hover:transition-colors"
-                            >
+                                 className={({ isActive}) => isActive ? 'text-green-500 capitalize m-1 p-2 text-base font-bold hover:text-green-500 hover:transition-colors' : 'capitalize m-1 p-2 text-base font-bold hover:text-slate-700 hover:transition-colors'}
+                                 >
                                 conatct
                             </ NavLink>
                         </li> 

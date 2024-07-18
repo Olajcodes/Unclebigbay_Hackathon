@@ -4,8 +4,9 @@ import Contact from '../component/Conatct'
 const Homepages = () => {
   return (
          <>
+               
+                <Contact /> 
                 <About />
-                <Contact />
          </>   
   )
 }
