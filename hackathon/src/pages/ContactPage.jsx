@@ -33,8 +33,8 @@ const ContactPage = () => {
           </h1>
         </div>
         <div className=" md:p-3 w-11/12  h-auto m-1 mx-auto md:flex md:items-center md:justify-between md:h-72">
-           <div className="md:w-5/12 w-11/12 h-auto m-1 mx-auto  md:m-4">
-            <h2 className="text-xl capitalize m-2 p-2 text-slate-300 font-bold"> 
+           <div className="md:w-5/12 w-11/12 h-auto mx-auto  ">
+            <h2 className="text-xl capitalize m-2 p-2 text-slate-300 font-bold "> 
               get in conatct with us
             </h2>
             <p className="text-sm w-3/4 h-auto  capitalize m-2 p-2 text-slate-300 "> 
