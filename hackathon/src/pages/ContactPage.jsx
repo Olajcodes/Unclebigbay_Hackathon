@@ -60,7 +60,7 @@ const ContactPage = () => {
                   We would like to hear back from you
                 </p>
             </div>
-            <div className="flex flex-col p-1 w-11/12 h-[450px] m-3 items-center text-slate-300 bg-green-300 rounded-md">
+            <div className="flex flex-col p-1 w-full md:w-11/12 h-[450px] m-3 items-center text-slate-300 bg-green-300 rounded-md">
               <form onSubmit={submitForm} className="flex flex-col items-center  w-11/12 h-[380px] p-1">
                 <div className="h-1/4  w-5/6 m-1 md:flex items-center justify-center">
                     <div className="  h-9 w-5/6 md:w-[270px] m-2 md:h-3/4 mx-auto">

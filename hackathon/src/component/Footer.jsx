@@ -7,8 +7,8 @@ import { FaPhone, FaMailBulk, FaLocationArrow , FaFacebook} from 'react-icons/fa
 const Footer = () => {
   return (
         <footer className="bg-slate-700 w-full h-auto  p-4">
-          <div className=" w-11/12 h-auto  mx-auto mb-2 flex flex-col items-start justify-center sm:flex-row sm:items-center">
-             <div className="w-auto md:w-1/4 h-auto sm:h-80 m-1 ">
+          <div className=" w-11/12 h-auto  mx-auto mb-2 flex flex-col items-start justify-center md:flex-row md:items-center">
+             <div className="w-auto md:w-1/4 h-auto md:h-80 m-1 ">
                 <div className="w-20 h-20 m-1 ">
                   <img src={logo} alt="logo" className='w-fit h-fit' />
                 </div>
@@ -20,43 +20,43 @@ const Footer = () => {
                 </p>
              </div> 
 
-             <div className="w-auto md:w-auto mx-9 sm:h-80 h-auto m-1 ">
+             <div className="w-auto md:w-auto mx-9  md:h-80 h-auto m-1 ">
               <h3 className='text-slate-200 text-xl m-1 p-1 my-3 capitalize'> about us </h3>
 
-              <Link to='' className='text-slate-100 capitalize hover:text-slate-500 m-1 p-1 my-3  text-xs block'>
+              <Link to='/about#vision' className='text-slate-100 capitalize hover:text-slate-500 m-1 p-1 my-3  text-xs block'>
                   our vision
               </Link>
-              <Link to='' className='text-slate-100 capitalize hover:text-slate-500 m-1 p-1 my-3  text-xs block'>
+              <Link to='/about#do' className='text-slate-100 capitalize hover:text-slate-500 m-1 p-1 my-3  text-xs block'>
                 what we do
               </Link>
-              <Link to='' className='text-slate-100 capitalize hover:text-slate-500 m-1 p-1 my-3  text-xs block'>
+              <Link to='/about#mission' className='text-slate-100 capitalize hover:text-slate-500 m-1 p-1 my-3  text-xs block'>
                   our mission
               </Link>
 
              
              </div>
-             <div className="w-auto md:w-1/4 sm:h-80 h-auto m-1 ">
+             <div className="w-auto md:w-1/4 md:h-80 h-auto m-1 ">
               <h3 className='text-slate-200 text-xl m-1 p-1 my-3 capitalize'> services </h3>
 
-              <Link to='' className='text-slate-100 capitalize hover:text-slate-500 m-1 p-1 my-3  text-xs block'>
+              <Link to='/service' className='text-slate-100 capitalize hover:text-slate-500 m-1 p-1 my-3  text-xs block'>
                  building construction
               </Link>
-              <Link to='' className='text-slate-100 capitalize hover:text-slate-500 m-1 p-1 my-3  text-xs block'>
+              <Link to='/service' className='text-slate-100 capitalize hover:text-slate-500 m-1 p-1 my-3  text-xs block'>
                machine facilities and maintenace
               </Link>
-              <Link to='' className='text-slate-100 capitalize hover:text-slate-500 m-1 p-1 my-3  text-xs block'>
+              <Link to='/service' className='text-slate-100 capitalize hover:text-slate-500 m-1 p-1 my-3  text-xs block'>
                 general contract and supllies
               </Link>
-              <Link to='' className='text-slate-100 capitalize hover:text-slate-500 m-1 p-1 my-3  text-xs block'>
+              <Link to='/service' className='text-slate-100 capitalize hover:text-slate-500 m-1 p-1 my-3  text-xs block'>
                 painting service
               </Link>
-              <Link to='' className='text-slate-100 capitalize hover:text-slate-500 m-1 p-1 my-3  text-xs block'>
+              <Link to='/service' className='text-slate-100 capitalize hover:text-slate-500 m-1 p-1 my-3  text-xs block'>
               Borehole Drilling services 
               </Link>
 
              
              </div>
-             <div className="w-auto md:w-1/4 sm:h-80 h-auto m-1 ">
+             <div className="w-auto md:w-1/4 md:h-80 h-auto m-1 ">
               <h3 className='text-slate-200 text-xl m-1 p-1 my-3 capitalize'> contact </h3>
 
               <div className="flex m-1 p-1 items-center  gap-3 justify-between w-auto h-auto ">
