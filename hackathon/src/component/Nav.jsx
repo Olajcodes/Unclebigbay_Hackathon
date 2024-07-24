@@ -46,7 +46,7 @@ const Nav = () => {
                             </ NavLink>
                         </li>
                         <li>
-                            <NavLink to="/contact" 
+                            <NavLink to="/contact-us" 
                                  className={({ isActive}) => isActive ? 'text-green-500 capitalize m-1 p-2 text-base font-bold hover:text-green-500 hover:transition-colors' : 'capitalize m-1 p-2 text-base font-bold hover:text-slate-700 hover:transition-colors'}
                                  >
                                 conatct
@@ -55,7 +55,7 @@ const Nav = () => {
                        
                     </ul>
                 </nav>
-              
+                
             </div>
         </header>
     </>

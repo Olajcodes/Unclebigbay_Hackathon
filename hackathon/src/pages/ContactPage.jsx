@@ -1,29 +1,31 @@
 import { useState } from "react"
 import image1 from '../assets/image2.png'
-// import { Navigate} from 'react-router-dom'
+import { useNavigate} from 'react-router-dom'
 
 
-const ContactPage = () => {
-  const [firstName, setFirstName] = useState('')
-  const [lastName, setLastName] = useState('')
-  const [email, setEmail] = useState('')
-  const [phone, setPhone] = useState('')
-  const [content, setContent] = useState('')
+const ContactPage = ({ addSubmitForm }) => {
+  const [firstName, setFirstName] = useState('');
+  const [lastName, setLastName] = useState('');
+  const [email, setEmail] = useState('');
+  const [phone, setPhone] = useState('');
+  const [content, setContent] = useState('');
 
-  const submitForm = (e) =>{
-    e.preventDefault()
+  const navigate = useNavigate(); 
 
-      const newForm = {
-        firstName,
-        lastName,
-        email,
-        phone,
-        content
+  const submitForm = (e) => {
+    e.preventDefault();
 
-      }
-      console.log(newForm)
-      
-  }
+    const newForm = {
+      firstName,
+      lastName,
+      email,
+      phone,
+      content,
+    };
+    addSubmitForm(newForm);
+
+    navigate('/');
+  };
 
 
   
@@ -70,6 +72,7 @@ const ContactPage = () => {
                         placeholder="first name"
                         className="capitalize  w-full h-full rounded-md p-3 text-slate-600 outline-0"
                         value={firstName}
+                        required
                         onChange={(e) => setFirstName(e.target.value)}
                         />
 
@@ -95,6 +98,7 @@ const ContactPage = () => {
                         placeholder="email"
                         className="capitalize  w-full h-full rounded-md p-3 text-slate-600 outline-0"
                         value={email}
+                        required
                         onChange={(e) => setEmail(e.target.value)}
                        
                         />
@@ -104,6 +108,7 @@ const ContactPage = () => {
                     <label htmlFor="" className="capitalize absolute -left-[100000px]"> phone number</label>
                       <input 
                         type="text"  
+                        required
                         placeholder="phone number"
                         className="capitalize  w-full h-full rounded-md p-3 text-slate-600 outline-0"
                         value={phone}
@@ -116,10 +121,12 @@ const ContactPage = () => {
                 <div className="h-1/4  w-5/6 m-1 md:flex items-center justify-center">
                     <div className=" h-3/4 w-5/6 md:w-3/3   m-2 md:h-3/4 mx-auto">
                     <textarea name="text area"
+                    required
                     placeholder="Enter you message here" 
                     id="textarea" className="  p-1 text-slate-600 outline-0 max-w-full w-full max-h-full h-full rounded-md min-h-full min-w-full" value={content}
                     onChange={(e) => setContent(e.target.value)}
                     ></textarea>
+                    
                     
                     </div>
                     
