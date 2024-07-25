@@ -8,7 +8,7 @@ import image4 from '../assets/image8 (4).png'
 const AboutPage = () => {
   return (
 
-    <section className="w-full h-auto overflow-hidden bg-slate-800 mt-20">  
+    <section className="w-full h-auto overflow-hidden bg-slate-800 mt-20 scroll-smooth">  
       <div className=" m-10 mb-1 p-4 text-slate-300 w-auto ">
       <h1 className="capitalize text-xl font-bold ">
         about us

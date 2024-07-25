@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 
 const Service = () => {
   return (
-    <section className=' bg-slate-800 h-1/6 w-full'> 
+    <section className=' bg-slate-800 h-1/6 w-full scroll-smooth'> 
           <div className="w-5/6 h-auto  mx-auto my-3 p-2 ">
             <h2 className='capitalize w-4/5 mx-6 font-semibold text-slate-100 text-2xl'>
               Explore Our Services

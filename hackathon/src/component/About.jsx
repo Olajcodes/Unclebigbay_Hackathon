@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 
 const About = () => {
   return (
-    <section className=' bg-white h-1/6 w-full'> 
+    <section className=' bg-white scroll-smooth h-1/6 w-full'> 
         <div className="w-5/6 h-auto  mx-auto my-3 p-2 ">
         <h2 className='capitalize w-4/5 mx-6 font-semibold text-slate-900 text-2xl'>
           discover our expertise

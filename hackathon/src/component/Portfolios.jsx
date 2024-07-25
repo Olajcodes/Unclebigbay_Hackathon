@@ -4,7 +4,7 @@ import image3 from '../assets/image7 (3).png'
 import { Link } from 'react-router-dom'
 const Portfolios = () => {
   return (
-    <section className=' bg-green-50 h-1/6 w-full'> 
+    <section className=' bg-green-50 h-1/6 w-full scroll-smooth'> 
           <div className="w-5/6 h-auto  mx-auto my-3 p-2 ">
             <h2 className='capitalize w-4/5 mx-6 font-semibold text-slate-700 text-2xl'>
                  See Our Work in Action

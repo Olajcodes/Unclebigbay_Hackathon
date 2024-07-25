@@ -32,7 +32,7 @@ const ContactPage = ({ addSubmitForm }) => {
 
 
   return (
-    <section className="bg-slate-800 w-full h-5/6 overflow-hidden mt-20">
+    <section className="bg-slate-800 w-full h-5/6 overflow-hidden mt-20 scroll-smooth">
       <div className=" m-10 mb-1 p-4 text-slate-300 w-auto ">
       <h1 className="capitalize text-xl font-bold ">
       our contact
