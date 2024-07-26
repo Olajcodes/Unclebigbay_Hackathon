@@ -57,25 +57,25 @@ const Footer = () => {
              
              </div>
              <div className="w-auto  md:w-2/4 md:h-80 h-auto m-1 ">
-              <h3 className='text-slate-200 font-bold text-left ml-12 text-xl m-1 p-1 my-3 capitalize'> contact </h3>
+              <h3 className='text-slate-200 font-bold text-left md:ml-12 text-xl m-1 p-1 my-3 capitalize'> contact </h3>
 
               <div className="flex m-1 p-1 items-center  gap-3 justify-between w-auto h-auto ">
-               <FaPhone className='text-slate-50 -m-2 w-1/4 block'/>
-                <div className='mr-9 3/4'>
+               <FaPhone className='text-slate-50 -m-7 w-1/4 block'/>
+                <div className='mr-9 md:-mr-1 w-3/4'>
                   <a className='block text-slate-100 capitalize hover:text-slate-500' href="tel:+2347033784304">07033784304</a>
                   <a className='block text-slate-100 capitalize hover:text-slate-500'  href="tel:+2348140384385">08140384385</a>
                 </div>
               </div>
               <div className="flex   m-1 p-1 items-center  gap-3 justify-around w-auto h-auto ">
-                <FaMailBulk className='text-slate-50 m-1  block'/>
-                <a className='block  text-slate-100 capitalize text-right hover:text-slate-500 md:3/4'  href="mailto:najacprojectsandservices@gmail.com">najacprojectsandservices@gmail.com</a>
+                <FaMailBulk className='text-slate-50 m-1 md:w-1/4 md:-ml-4 md:mr-5  block'/>
+                <a className='block  text-slate-100 capitalize hover:text-slate-500 md:3/4'  href="mailto:najacprojectsandservices@gmail.com">najacprojectsandservices @gmail.com</a>
               </div>
               <div className="flex m-1 p-1 items-center  gap-3 justify-around w-auto h-auto ">
-                <FaLocationArrow className='text-slate-50 m-1  block  w-1/4'/>
+                <FaLocationArrow className='text-slate-50 m-1 md:w-1/4 block md:-ml-5'/>
                 <p className='block  mr-2 text-slate-100 capitalize md:w-3/4  hover:text-slate-500 ml-3' >Orange Plaza, opp Bormi Filling Station, Kpeyeghi, FCT, Abuja.</p>
               </div>
               <div className="flex m-1 p-1 items-center  gap-3 justify-around w-auto h-auto ">
-                <FaFacebook className='text-slate-50 m-1   block  md:3/4'/>
+                <FaFacebook className='text-slate-50 md:w-1/4 md:-ml-4  block '/>
                 <p className='block  text-slate-100 capitalize hover:text-slate-500 ml-3' >NAJAC projects & Service Ltd.com</p>
               </div>
 

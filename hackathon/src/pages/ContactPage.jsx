@@ -90,7 +90,7 @@ const ContactPage = ({ addSubmitForm }) => {
                     
                     </div>
                 </div>
-                <div className="h-1/4  w-5/6 m-1 md:flex items-center justify-center">
+                <div className="h-1/4  w-full m-1 md:flex items-center justify-center">
                     <div className=" h-9 w-5/6 md:w-[270px] m-2 md:h-3/4 mx-auto">
                     <label htmlFor="" className="capitalize absolute -left-[100000px]"> email</label>
                       <input 
@@ -118,7 +118,7 @@ const ContactPage = ({ addSubmitForm }) => {
                     </div>
                 </div>
                
-                <div className="h-1/4  w-5/6 m-1 md:flex items-center justify-center">
+                <div className="h-1/4  w-full m-1 md:flex items-center justify-center">
                     <div className=" h-3/4 w-5/6 md:w-3/3   m-2 md:h-3/4 mx-auto">
                     <textarea name="text area"
                     required
