@@ -13,7 +13,7 @@ const Conatct = () => {
             From Building Design and Maintenance to General Contracting, Printing, and Borehole Drilling – Partner with Us Today!
             </p>
             <button className='w-40 h-10 hover:text-green-400 hover:bg-none  md:w-40 md:h-12 md:mt-4 md:ml-4 rounded-md bg-green-500 text-slate-100'>
-             <Link to='/contact' className=':hover:text-green-400 hover:bg-none text-slate-100 capitalize font-semibold'> contact us </Link>
+             <Link to='/contact-us' className=':hover:text-green-400 hover:bg-none text-slate-100 capitalize font-semibold'> contact us </Link>
             </button>
           
           </div>
