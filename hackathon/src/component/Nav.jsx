@@ -16,7 +16,7 @@ const Nav = () => {
                             <NavLink to="/" 
 
                           
-                                    className={({ isActive}) => isActive ? 'text-green-500 capitalize m-1 p-2 text-base font-bold hover:text-green-500 hover:transition-colors' : 'capitalize m-1 p-2 text-base font-bold hover:text-slate-700 hover:transition-colors'}
+                                    className={({ isActive}) => isActive ? 'text-green-500 capitalize m-1 p-2 text-xs md:text-sm font-bold hover:text-green-500 hover:transition-colors' : 'capitalize m-1 p-2 text-xs md:text-sm font-bold hover:text-slate-700 hover:transition-colors'}
                             >
                                 home
                             </NavLink >
@@ -24,7 +24,7 @@ const Nav = () => {
                        <li>
                             <NavLink 
                                     to="/About" 
-                                    className={({ isActive}) => isActive ? 'text-green-500 capitalize m-1 p-2 text-base font-bold hover:text-green-500 hover:transition-colors' : 'capitalize m-1 p-2 text-base font-bold hover:text-slate-700 hover:transition-colors'}
+                                    className={({ isActive}) => isActive ? 'text-green-500 capitalize m-1 p-2 text-xs md:text-sm font-bold hover:text-green-500 hover:transition-colors' : 'capitalize m-1 p-2 text-xs md:text-sm font-bold hover:text-slate-700 hover:transition-colors'}
                            
                             >
                                 about
@@ -32,7 +32,7 @@ const Nav = () => {
                         </li>
                         <li>
                             <NavLink to="/service" 
-                                   className={({ isActive}) => isActive ? 'text-green-500 capitalize m-1 p-2 text-base font-bold hover:text-green-500 hover:transition-colors' : 'capitalize m-1 p-2 text-base font-bold hover:text-slate-700 hover:transition-colors'}
+                                   className={({ isActive}) => isActive ? 'text-green-500 capitalize m-1 p-2 text-xs md:text-sm font-bold hover:text-green-500 hover:transition-colors' : 'capitalize m-1 p-2 text-xs md:text-sm font-bold hover:text-slate-700 hover:transition-colors'}
                                    >
                                 services
                             </ NavLink>
@@ -40,14 +40,14 @@ const Nav = () => {
                        
                         <li>
                             <NavLink to="/portfolio" 
-                                   className={({ isActive}) => isActive ? 'text-green-500 capitalize m-1 p-2 text-base font-bold hover:text-green-500 hover:transition-colors' : 'capitalize m-1 p-2 text-base font-bold hover:text-slate-700 hover:transition-colors'}
+                                   className={({ isActive}) => isActive ? 'text-green-500 capitalize m-1 p-2 text-xs md:text-sm font-bold hover:text-green-500 hover:transition-colors' : 'capitalize m-1 p-2 text-xs md:text-sm font-bold hover:text-slate-700 hover:transition-colors'}
                                    >
                                 portfolio
                             </ NavLink>
                         </li>
                         <li>
                             <NavLink to="/contact-us" 
-                                 className={({ isActive}) => isActive ? 'text-green-500 capitalize m-1 p-2 text-base font-bold hover:text-green-500 hover:transition-colors' : 'capitalize m-1 p-2 text-base font-bold hover:text-slate-700 hover:transition-colors'}
+                                 className={({ isActive}) => isActive ? 'text-green-500 capitalize m-1 p-2 text-xs md:text-sm font-bold hover:text-green-500 hover:transition-colors' : 'capitalize m-1 p-2 text-xs md:text-sm font-bold hover:text-slate-700 hover:transition-colors'}
                                  >
                                 conatct
                             </ NavLink>
