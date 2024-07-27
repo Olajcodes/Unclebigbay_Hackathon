@@ -70,7 +70,7 @@ const AboutPage = () => {
             </div>
             <div className=" w-full hidden md:block md:h-52 md:w-2/6 my-3  "></div>
           </div>
-          <div className="w-11/12 h-auto  p-2 mx-auto flex flex-col md:flex-row-reverse items-center justify-around">
+          <div className="w-11/12 h-auto sm:mb-9  p-2 mx-auto flex flex-col md:flex-row-reverse items-center justify-around">
             <div id='vision' className=" w-full md:h-64 md:w-3/6 my-3  mx-auto">
               <h1 className="p-2 m-2 text-slate-600 capitalize  text-2xl font-bold">
                our vision
