@@ -6,7 +6,7 @@ const Nav = () => {
   return (
     <>
         <header className="bg-black z-[22222222222222] shadow-md shadow-white w-full h-24 md:h-20  fixed top-0 mb-5 backdrop:blur">
-            <div className="header  flex w-5/6 h-5/6 mx-auto items-start flex-col md:flex-row md:items-center justify-between text-slate-500">
+            <div className="header  flex w-5/6 h-5/6 mx-auto items-start flex-row md:items-center justify-between text-slate-500">
                <div className=" w-12 h-12 rounded-lg">
                     <img src={logo} alt="logo" />
                </div>
@@ -40,7 +40,7 @@ const Nav = () => {
                        
                         <li>
                             <NavLink to="/portfolio" 
-                                   className={({ isActive}) => isActive ? 'text-green-500 capitalize m-1 p-2 text-xs md:text-sm font-bold hover:text-green-500 hover:transition-colors' : 'capitalize m-1 p-2 text-xs md:text-sm font-bold hover:text-slate-700 hover:transition-colors'}
+                                   className={({ isActive}) => isActive ? 'text-green-500 capitalize m-1 p-2 text-xs md:text-sm font-bold hover:text-green-500 hover:transition-colors hidden md:block' : 'hidden md:block capitalize m-1 p-2 text-xs md:text-sm font-bold hover:text-slate-700 hover:transition-colors'}
                                    >
                                 portfolio
                             </ NavLink>
@@ -49,7 +49,7 @@ const Nav = () => {
                             <NavLink to="/contact-us" 
                                  className={({ isActive}) => isActive ? 'text-green-500 capitalize m-1 p-2 text-xs md:text-sm font-bold hover:text-green-500 hover:transition-colors' : 'capitalize m-1 p-2 text-xs md:text-sm font-bold hover:text-slate-700 hover:transition-colors'}
                                  >
-                                conatct
+                                contact
                             </ NavLink>
                         </li> 
                        
