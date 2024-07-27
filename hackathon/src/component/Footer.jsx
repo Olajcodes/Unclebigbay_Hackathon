@@ -56,7 +56,7 @@ const Footer = () => {
 
              
              </div>
-             <div className="w-auto  md:w-2/4 md:h-80 h-auto m-1 ">
+             <div className="w-auto  md:w-1/4 md:h-80 h-auto m-1 ">
               <h3 className='text-slate-200 font-bold text-left md:ml-12 text-xl m-1 p-1 my-3 capitalize'> contact </h3>
 
               <div className="flex m-1 p-1 items-center  gap-3 justify-between w-auto h-auto ">
