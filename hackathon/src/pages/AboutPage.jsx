@@ -51,7 +51,7 @@ const AboutPage = () => {
               <h1 className="p-2 m-2 text-slate-600 capitalize  text-2xl font-bold">
                 what we do
               </h1>
-              <p className="p-2 m-2 text-slate-900 text-left md:w-5/6 md:h-44 leading-7  text-sm">
+              <p className="p-2 m-2 text-slate-900 text-left md:w-full md:h-52 leading-7  text-sm">
               NAJAC Projects and Services Ltd is a duly registered integrated Engineering and Services-providing company with Corporate Affairs Commission (CAC) in Nigeria that has diverse technical expertise and capabilities in delivery multi-facet services in the areas of Engineering Consulting Services, Construction & Civil Works, Facilities Maintenances, Procurement & Projects Management, and General Contracts & Supplies.
               </p>
               
@@ -63,7 +63,7 @@ const AboutPage = () => {
               <h1 className="p-2 m-2 text-slate-600 capitalize  text-2xl font-bold">
                our mission
               </h1>
-              <p className="p-2 m-2 text-slate-900 text-left md:w-5/6 md:h-44 leading-7  text-sm">
+              <p className="p-2 m-2 text-slate-900 text-left md:w-full md:h-52 leading-7  text-sm">
                  To provide world-class engineering consultancy, construction, maintenance and supply services that meet clients needs in engineering, construction, maintenance and general supplies in a best and most cost-effective manner through the application of best practices & standards while strictly adhering to highest measure of safety and environmental preservations.
               </p>
               
@@ -75,7 +75,7 @@ const AboutPage = () => {
               <h1 className="p-2 m-2 text-slate-600 capitalize  text-2xl font-bold">
                our vision
               </h1>
-              <p className="p-2 m-2 text-slate-900 text-left md:w-5/6 md:h-44 leading-7  text-sm">
+              <p className="p-2 m-2 text-slate-900 text-left md:w-full md:h-52 leading-7  text-sm">
               To be a world-class engineering consultancy, construction, maintenance and supply services-providing company of first choice for proffering best and most cost-effective solutions to clients needs in areas of engineering, construction, maintenance and general supplies through the application of best practices & standards while strictly adhering to highest measure of safety and environmental preservations.
               </p>
               
