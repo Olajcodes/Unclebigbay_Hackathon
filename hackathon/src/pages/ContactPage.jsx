@@ -42,7 +42,7 @@ const ContactPage = ({ addSubmitForm }) => {
         
           <div className="w-5/6 h-auto  md:w-5/12 md:h-4/5 md:m-3 mx-auto my-2 p-3">
             <h2 className="w-5/6 md:font-extrabold md:w-64 md:ml-4 my-1 h-2/6  capitalize text-slate-200 font-bold text-sm p-1 md:text-xl">
-            get in conatct with us
+            get in contact with us
             </h2>
             <p className=' w-6/6 h-2/6 my-1 text-slate-500 p-1 text-sm md:w-5/6 md:h-1/4 md:ml-4 md:mt-1'>
             Reach out today to discuss how our expert services can support your projects and meet your needs. We`re here to help

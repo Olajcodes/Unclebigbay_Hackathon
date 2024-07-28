@@ -4,7 +4,9 @@ import MainLayout from "./layout/MainLayout"
 import AboutPage from "./pages/AboutPage"
 import ContactPage from './pages/ContactPage'
 import PortfolioPage from './pages/PortfolioPage'
+import ErrorPage from "./pages/ErrorPage"
 import ServicePage from './pages/ServicePage'
+
 
 
 const App = () => {
@@ -30,8 +32,12 @@ const router =createBrowserRouter (
        <Route path="/about" element={ < AboutPage/>} /> 
     
        <Route path="/service" element={ < ServicePage/>} /> 
+       <Route path="*" element={ < ErrorPage/>} />
+
+      
     
     </Route>
+   
    
   )
 )

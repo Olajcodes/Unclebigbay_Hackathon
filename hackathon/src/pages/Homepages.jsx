@@ -3,6 +3,7 @@ import Contact from '../component/Conatct'
 import Portfolios from '../component/Portfolios'
 import Service from '../component/Service'
 import Teams from '../component/Teams'
+
  
 
 const Homepages = () => {
@@ -13,6 +14,7 @@ const Homepages = () => {
               <Service />
               <Portfolios />
               <Teams />
+           
          
               
          </>   
